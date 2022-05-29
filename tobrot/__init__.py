@@ -57,11 +57,11 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", 12345))
 API_HASH = os.environ.get("API_HASH")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 539295917))
+OWNER_ID = int(os.environ.get("OWNER_ID", 963982667))
 
 
 # to store the channel ID where bot is authorized
-AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "539295917").split()]
+AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "963982667").split()]
 
 # Cuz most ppl dunno AUTH_CHANNEL also works as SUDO
 SUDO_USERS = [int(s) if (' ' not in os.environ.get('SUDO_USERS', '')) else int(s) for s in os.environ.get('SUDO_USERS', '').split()]
